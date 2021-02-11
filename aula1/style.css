@@ -13,3 +13,7 @@ em strong {
 .important {
     font-size: 20px;
 }
+
+#banner {
+    width: 100%;
+}
