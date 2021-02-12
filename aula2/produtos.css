@@ -1,0 +1,23 @@
+header {
+    position: relative;
+    background: #BBBBBB;
+}
+
+nav ul {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 15px;
+}
