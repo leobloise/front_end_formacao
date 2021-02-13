@@ -29,6 +29,11 @@ nav ul li a {
     margin-left: 15px;
 }
 
+nav ul li a:hover {
+    color: #C78C19;
+    text-decoration: underline ;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -44,6 +49,20 @@ nav ul li a {
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+    cursor: pointer;
 }
 
 .produtos li h2 {
@@ -60,4 +79,16 @@ nav ul li a {
 
 .produtos .produto-descricao {
     font-size: 18px;
+}
+
+footer {
+    padding: 40px 0;
+    background: url("bg.jpg");
+    text-align: center;
+}
+
+.copyrigth {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
 }
