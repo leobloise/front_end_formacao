@@ -1,12 +1,19 @@
 header {
     position: relative;
     background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 nav ul {
     position: absolute;
-    top: 40%;
-    right: 10%;
+    top: 110px;
+    right: 0;
 }
 
 nav ul li {
