@@ -1,48 +1,116 @@
-.centralize-title {
-    text-align: center;
+header {
+    position: relative;
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-h1.centralize-title  {
-    padding: 30px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-p{
-    text-align: center;
+nav ul {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-em strong {
-    color: red;
-}
-
-.important {
-    font-size: 20px;
-}
-
-#banner {
-    width: 100%;
-}
-
-ul {
+nav ul li {
     display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav ul li a:hover {
+    color: #C78C19;
+    text-decoration: underline ;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 5px;
 }
 
-.itens {
-    font-style: italic;
+.produtos li:hover {
+    border-color: #C78C19;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
+.produtos li:active {
+    border-color: #088C19;
+    cursor: pointer;
 }
 
-.imagembeneficios {
+.produtos li h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos .produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px ;
+}
+
+.produtos .produto-descricao {
+    font-size: 18px;
+}
+
+footer {
+    padding: 40px 0;
+    background: url("bg.jpg");
+    text-align: center;
+}
+
+.copyrigth {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    font-size: 20px;
+    margin: 0px 0 10px;
+    display: block;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
 }
+
+.checkbox {
+    margin: 20px 0;
+}
+
