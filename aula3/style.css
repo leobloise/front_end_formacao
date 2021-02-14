@@ -1,0 +1,48 @@
+.centralize-title {
+    text-align: center;
+}
+
+h1.centralize-title  {
+    padding: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+.important {
+    font-size: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
