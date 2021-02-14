@@ -97,7 +97,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     font-size: 20px;
     margin: 0px 0 10px;
     display: block;
@@ -114,3 +114,35 @@ form label, form p {
     margin: 20px 0;
 }
 
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2) rotate(360deg);
+}
+
+table {
+    margin: 40px;
+}
+
+thead {
+    background: #555555;
+    font-weight: bold;
+    color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
