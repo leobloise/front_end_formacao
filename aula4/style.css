@@ -242,9 +242,22 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .video, .produtos, .produtos li  {
+    .caixa, .video, .produtos, .produtos li{
         width: auto;
     }
+
+    .caixa form {
+        text-align: center;
+    }
+    
+    .caixa form input, .caixa form textarea{
+        margin:  0 auto;
+    }
+    
+    .caixa table {
+        margin: 50px auto;
+    }
+
     h1 {
         text-align: center;
     }
