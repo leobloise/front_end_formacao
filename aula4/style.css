@@ -242,7 +242,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .video {
+    .caixa, .video, .produtos, .produtos li  {
         width: auto;
     }
     h1 {
@@ -251,7 +251,7 @@ td, th {
     nav ul{
         position: static;
     }
-    ..lista-beneficios, .imagembeneficios {
+    .lista-beneficios, .imagembeneficios {
         width: 100%;
     }
 }
